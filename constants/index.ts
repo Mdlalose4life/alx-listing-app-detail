@@ -234,42 +234,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       discount: "35"
     },
     {
-      name: "Downtown Apartment",
-      address: {
-        state: "Tokyo",
-        city: "Tokyo",
-        country: "Japan"
-      },
-      rating: 4.81,
-      category: ["City Center", "Free WiFi", "Public Transport"],
-      price: 2200,
-      offers: {
-        bed: "1",
-        shower: "1",
-        occupants: "2"
-      },
-      image: "https://res.cloudinary.com/dolzftbto/image/upload/v1749033679/johnson-johnson-U6Q6zVDgmSs-unsplash_tups4x.jpg",
-      discount: ""
-    },
-    {
-      name: "Luxury Safari Lodge",
-      address: {
-        state: "Serengeti",
-        city: "Mara",
-        country: "Tanzania"
-      },
-      rating: 4.97,
-      category: ["Safari", "Guided Tours", "Free Breakfast"],
-      price: 4500,
-      offers: {
-        bed: "4",
-        shower: "4",
-        occupants: "6-8"
-      },
-      image: "https://res.cloudinary.com/dolzftbto/image/upload/v1749033679/johnson-johnson-U6Q6zVDgmSs-unsplash_tups4x.jpg",
-      discount: "20"
-    },
-    {
       name: "Countryside Cottage",
       address: {
         state: "Cotswolds",

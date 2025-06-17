@@ -1,4 +1,7 @@
 import { PropertyProps } from "@/interfaces/index";
+import ReviewSection from "./BookingSection";
+import BookingSection from "./ReviewSection";
+import HorizintalDevider from "../footer-components/Dividers/Horizontal-devider";
 
 const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => {
   return (
@@ -17,8 +20,18 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => 
 
       {/* Description */}
       <div className="mt-4">
+        {/* <HorizintalDevider/> */}
         <h2 className="text-2xl font-semibold">Description</h2>
-        <p>{property.description}</p>
+        {/* <HorizintalDevider/> */}
+        <div className="flex">
+          <div className="w-[1027px]">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi possimus fugiat doloremque quisquam, commodi exercitationem, aspernatur officiis tempore, repellendus aut! Optio modi consectetur, autem maxime dolore minus doloremque quidem impedit corporis cupiditate iure itaque, vero vitae assumenda veniam sint architecto ipsum quae laborum, aspernatur similique beatae necessitatibus. Vel nobis totam laborum quas aut doloribus ea commodi adipisci, ducimus a nihil error architecto sequi animi harum eveniet mollitia placeat temporibus saepe ut, reprehenderit sit repellendus magni tenetur. Delectus quia ipsum fuga aperiam magnam beatae.</p>
+          </div>
+          {/* <p>{property.description}</p> */}
+          <aside className="w-[535px]">
+            <BookingSection/>
+          </aside>
+        </div>
       </div>
 
       {/* Amenities */}
@@ -32,6 +45,9 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => 
           ))}
         </ul>
       </div>
+      <section>
+        {/* <ReviewSection/> */}
+      </section>
     </div>
   );
 };

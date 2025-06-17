@@ -2,11 +2,13 @@ import Image from "next/image"
 import STAR_IMAGE from "@/public/assets/star.png"
 import React from "react"
 import Pill from "./layout/Pill"
+import Link from "next/link"
 
 const Card: React.FC = ({name, rating, category, price, image, offers, address}) => {
 
  return (
     <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg">
+      <Link href={`/property/${name}`}>
       <Image className="rounded-lg" src={image} width={378.56} height={299.37} alt="house image" />
       <div className="p-2 flex gap-2 mt-2">
         <Pill title={category[0]} />
@@ -56,6 +58,7 @@ const Card: React.FC = ({name, rating, category, price, image, offers, address})
         </div>
         <p className=" text-[22px] font-semibold">{price}<span className=" text-[14px] text-[#787878]">/n</span></p>
       </div>
+      </Link>
     </div>
   )
 }

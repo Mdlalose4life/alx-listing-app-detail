@@ -51,10 +51,10 @@ const MiddleHeader: React.FC= () => {
             </div>
         </div>
         <div className="flex flex-row gap-3 items-center h-[45px]">
-            <div className="border bg-[#34967C] rounded-full flex justify-center py-[12px] px-[24px]">
+            <div className="bg-[#34967C] rounded-full flex justify-center py-[12px] px-[24px]">
                 Sign in
             </div>
-            <div className="border rounded-full py-[12px] px-[24px]">
+            <div className="rounded-full bg-[#ECECEC] py-[12px] px-[24px]">
                 Sign up
             </div>
         </div>
