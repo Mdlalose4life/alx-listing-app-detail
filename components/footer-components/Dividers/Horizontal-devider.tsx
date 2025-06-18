@@ -1,17 +1,18 @@
 import React from 'react';
 
 interface HorizintalDeviderProps {
-  height?: string;
-  color?: string;
   thickness?: string;
+  color?: string;
+  weight?: string;
+  spacing?: string;
 }
 
 const HorizintalDevider: React.FC<HorizintalDeviderProps> = ({
-  height = 'h-[0.1px]',
+  thickness = 'h-[0.1px]',
   color = 'bg-gray-700',
-  thickness = 'w-py',
+  weight = 'w-[px]',
 }) => {
-  return <div className={`${height} ${thickness} ${color}`} />;
+  return <div className={`${thickness} ${weight} ${color}`} />;
 };
 
 export default HorizintalDevider;
