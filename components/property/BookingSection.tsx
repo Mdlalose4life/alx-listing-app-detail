@@ -1,8 +1,10 @@
+import HorizintalDevider from "../common/Dividers/Horizontal-devider";
+
 const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
     return (
-      <div className="mt-8 pb-4 mb-4 mb-2.5">
+      <div className="mb-4">
         <h3 className="text-2xl font-semibold ">
-          <div className="flex gap-3">
+          <div className="flex gap-3 mb-16">
             <img
               src="/assets/star.svg"
               alt="Rating_Star"/>
@@ -10,7 +12,7 @@ const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
               <span className="text-[#6C6C6C]">( 345 reviews )</span>
           </div>
           </h3>
-          <div className="grid grid-cols-2 gap-4 max-w-[55%]">
+          <div className="grid grid-cols-2 gap-4 max-w-[75%]">
             <div className="flex flex-col gap-4">
               <div className="flex flex-row">
                 <img  src="/assets/frame1.svg" alt="frame1" className="w-12 h-12 rounded-full mr-4" />
@@ -23,7 +25,7 @@ const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
               December 2022 <span className="mx-1">•</span>
               <span className="text-[#6C6C6C]">family trip</span>
             </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi deserunt esse nostrum eveniet exercitationem mollitia nemo dolorem corrupti eos laboriosam ex quos, odio suscipit blanditiis possimus aperiam aliquam quo.</p>
+              <p>I simply don’t have the words to describe how incredibly beautiful the villa and its surroundings are. This is a wonderful remote spot that is simply breathtaking.</p>
             </div>
           
           <div className="flex flex-col gap-4">
@@ -38,7 +40,7 @@ const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
               Februart 2001 <span className="mx-1">•</span>
               <span className="text-[#6C6C6C]">family trip</span>
             </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi deserunt esse nostrum eveniet exercitationem mollitia nemo dolorem corrupti eos laboriosam ex quos, odio suscipit blanditiis possimus aperiam aliquam quo.</p>
+              <p>We stayed at this home for a family vacation of 7 adults (including 3 couples, 1 baby) and had a fantastic stay. The house was BEAUTIFUL and honestly better than shown in pictures,</p>
           </div>
             
           <div className="flex flex-col gap-4">
@@ -57,7 +59,7 @@ const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
 
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-8">
             <div className="flex flex-row">
             <img src="/assets/frame4.svg" alt="fram4" className="w-12 h-12 rounded-full mr-4" />
               <div>
@@ -70,7 +72,8 @@ const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
               <span className="text-[#6C6C6C]">family trip</span>
             </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi deserunt esse nostrum eveniet exercitationem mollitia nemo dolorem corrupti eos laboriosam ex quos, odio suscipit blanditiis possimus aperiam aliquam quo.</p>
-          </div>  
+          </div>
+          <HorizintalDevider color="bg-[#E6E6E6]" weight="w-[1027.01px]"/>
         </div>
 
 

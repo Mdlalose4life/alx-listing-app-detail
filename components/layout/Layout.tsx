@@ -1,9 +1,17 @@
+import { ReactComponentProps } from '@/interfaces';
 import React from 'react';
-const Layout: React.FC = () => {
-  return (
-    <div className=''>
+import Header from './Header';
+import Footer from './Footer';
 
-    </div>
+const Layout: React.FC<ReactComponentProps> = ({ children }) => {
+  return (
+    <>
+      <Header/>
+        <main className='min-h-screen mt-55'>
+          {children}
+        </main>
+      <Footer/>
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import STAR_IMAGE from "@/public/assets/star.png"
 import React from "react"
-import Pill from "./layout/Pill"
+import Pill from "../layout/Pill"
 import Link from "next/link"
 
 const Card: React.FC = ({name, rating, category, price, image, offers, address}) => {

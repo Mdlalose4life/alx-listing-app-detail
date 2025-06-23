@@ -1,12 +1,10 @@
-import LowerFooter from "@/components/footer-components/lower-footer";
-import UpperFooter from "@/components/footer-components/upper-footer";
+import CombinedFooter from "../footer-components/CombinedFooter";
 
 const Footer: React.FC = () => {
     return (
-      <div className="flex flex-col">
-        <UpperFooter/>
-        <LowerFooter/>
-      </div>
+      <footer className="">
+        <CombinedFooter/>
+      </footer>
     )
   }
   

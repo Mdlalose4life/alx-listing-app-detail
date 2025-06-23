@@ -1,3 +1,8 @@
+import * as React from "react"
+
+export interface ReactComponentProps {
+    children: React.ReactNode
+}
 export interface PropertyProps {
   name: string;
   address: {
@@ -16,3 +21,5 @@ export interface PropertyProps {
   image?: string;
   discount?: string;
 }
+
+

@@ -1,7 +1,7 @@
 import React from 'react';
 const LowerHeader: React.FC = () => {
   return (
-    <section className='flex flex-row gap-1 justify-center'>
+    <section className='flex flex-row gap-1 justify-center scroll-py-2'>
         <img src="/assets/Frame28.svg" alt="logo" className="h-17 w-17"/>
         <img src="/assets/Frame32.svg" alt="logo" className="h-17 w-17"/>
         <img src="/assets/Frame33.svg" alt="logo" className="h-17 w-17"/>
@@ -25,7 +25,7 @@ const LowerHeader: React.FC = () => {
         <img src="/assets/Frame28.svg" alt="logo" className="h-17 w-17"/>
         <img src="/assets/Frame32.svg" alt="logo" className="h-17 w-17"/>
         <img src="/assets/Frame33.svg" alt="logo" className="h-17 w-17"/>
-        <img src="/assets/Frame46.svg" alt="logo" className="h-17 w-17"/>
+        <img src="/assets/Frame46.svg" alt="logo" className="h-17 w-17"/> 
     </section>
   );
 };
