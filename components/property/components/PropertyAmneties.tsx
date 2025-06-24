@@ -5,7 +5,7 @@ const PropertyAmneties: React.FC = () => {
       <div className="flex flex-col">
         <h2 className="text-2xl font-semibold">What this place offers</h2>
         <p>Each home is fully equipped to meet your needs, with ample space and privacy.</p>
-        <ul className="inline-grid grid-cols-2 gap-x-28 gap-y-2 list-none mb-10">
+        <ul className="inline-grid grid-cols-2 gap-y-2 list-none mb-10">
             <li className="flex items-center gap-2">
             <img src="/assets/mountain.svg" alt="Save" />
             <span>Mountain view</span>
